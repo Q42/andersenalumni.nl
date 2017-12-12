@@ -1,0 +1,201 @@
+
+  body {
+  background: url('/header.gif') repeat-x left top;
+  font-family: 'Trebuchet', sans-serif;
+}
+
+.links {
+  width: 460px;
+  float: left;
+  margin-right: 40px;
+}
+.rechts { 
+  width: 460px;
+  float: left;
+}
+a {
+  color: #ea390e;
+  line-height: 18px;
+}
+a:hover {
+  text-decoration: none;
+  color: #ff7759;
+}
+a[name] {
+  line-height: 0px;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font: 700 50px/70px 'Cabin', Arial, sans-serif;
+}
+  h1 small { font-size: 30px; line-height: 34px; }
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 36px;
+  font-weight: 600;
+  font-family: 'Cabin',Arial, sans-serif;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 18px;
+  color: #363636;
+}
+ol {
+  list-style-position: outside;
+  list-style-type: decimal;
+  margin: 0 0 36px 22px;
+}
+ol p {
+  margin-top: 18px;
+}
+ul {
+  list-style-position: outside;
+  list-style-type: disc;
+  margin-left: 22px;
+}
+
+li { 
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+
+#HeaderWrap {
+  width: 960px;
+  margin: 0 auto;
+}
+img {
+  margin: 20px 0;
+}
+#ToContact {
+  float: right;
+  text-decoration: none;
+  margin-top: 60px;
+  font-family: 'Cabin',Arial, sans-serif;
+  font-weight: 500;
+}
+
+
+#IntroWrap {
+  padding: 30px 0;
+  background-color: #f6f6f6;
+}
+#Intro {
+  width: 960px;
+  margin: 0 auto;
+}
+/*#Intro h1 {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  background: url('line.gif') no-repeat center bottom;
+}*/
+
+#Intro img {
+  text-align: center;
+  margin: 30px auto;
+  display: block;
+}
+#Intro p {
+  width: 600px;
+  margin: 10px auto 0 auto;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+#Intro p.metline {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  background: url('/line.gif') no-repeat center bottom;
+  
+}
+#Intro span {
+  font-style: italic;
+}
+
+#ToInschrijven {
+  margin-top: 20px;
+  font-family: 'Cabin',Arial, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  border: solid #ea390e 1px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff7759), to(#ea390e));
+  background: -moz-linear-gradient(top, #ff7759, #ea390e);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ff7759, endColorStr=#ea390e);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ff7759, endColorStr=#ea390e);
+  display:inline-block; /* IE is so silly */
+}
+#ToInschrijven:hover {
+background: #ea390e;
+}
+
+#InschrijvenWrap, #PartnersWrap {
+  padding: 25px 0 7px 0;
+}
+#Inschrijven, #Partners {
+  overflow: hidden;
+  width: 960px;
+  margin: 0 auto;
+}
+  #Partners { padding-top: 30px; border-top: solid 1px #EA390E; }
+#RegMetLinkedin, #RegZonderLinkedin {
+  display: block;
+  margin-bottom: 18px;
+}
+
+#MetLinkedin {
+  display: none;
+}
+#ZonderLinkedin {
+  display: none;
+}
+h4 {
+  font-weight: 600;
+  font-family: 'Cabin',Arial, sans-serif;
+  margin: 36px 0 18px 0;
+}
+
+#ContactWrap {
+  padding: 25px 0 7px 0;
+  background-color: #f6f6f6;
+}
+#Contact {
+  overflow: hidden;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#FooterWrap {
+  width: 960px;
+  margin: 0 auto;
+}
+#FooterWrap p {
+  margin-top: 18px;
+  text-align: right;
+}
+
+.rechts dt {
+  float: left;
+  clear: left;
+  width: 150px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+.rechts dd {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 14px;
+}
