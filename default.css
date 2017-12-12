@@ -1,6 +1,6 @@
 
   body {
-  background: url('/header.gif') repeat-x left top;
+  background: url('header.gif') repeat-x left top;
   font-family: 'Trebuchet', sans-serif;
 }
 
@@ -110,7 +110,7 @@ img {
 #Intro p.metline {
   margin-bottom: 0;
   padding-bottom: 30px;
-  background: url('/line.gif') no-repeat center bottom;
+  background: url('line.gif') no-repeat center bottom;
   
 }
 #Intro span {
