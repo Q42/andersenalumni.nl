@@ -66,7 +66,7 @@ li {
 }
 
 #HeaderWrap {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 img {
@@ -86,7 +86,7 @@ img {
   background-color: #f6f6f6;
 }
 #Intro {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 /*#Intro h1 {
@@ -145,7 +145,7 @@ background: #ea390e;
 }
 #Inschrijven, #Partners {
   overflow: hidden;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
   #Partners { padding-top: 30px; border-top: solid 1px #EA390E; }
@@ -172,12 +172,12 @@ h4 {
 }
 #Contact {
   overflow: hidden;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 #FooterWrap {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 #FooterWrap p {
